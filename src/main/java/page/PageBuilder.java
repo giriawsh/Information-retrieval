@@ -14,6 +14,7 @@ import java.util.TreeMap;
 public class PageBuilder {
     private List<IndexBuilder> page;
 
+
     public PageBuilder() {
         page = new ArrayList<IndexBuilder>();
     }
@@ -48,6 +49,7 @@ public class PageBuilder {
             System.out.println("content =" + index.getContent());
             System.out.println("date =" + index.getDate());
             System.out.println("url =" + index.getUrl());
+            System.out.println("Vector = " + index.getWordVector());
         }
     }
 
@@ -86,19 +88,31 @@ public class PageBuilder {
                     InvertedList.put(word, tmpST);
                 } else{
                     TreeMap<Integer ,Integer> tmpST = InvertedList.get(word);
-                    Integer count = tmpST.get(id);
+                    Integer count = tmpST.get(id);//在一篇索引中同个词重复出现处理记录
                     if(count == null){
                         tmpST.put(id, 1);
                     }else{
                         count ++;
                         tmpST.put(id, count);
                     }
-//                    count = ((count == null) ? 1 : count++);
-//                    tmpST.put(id, count);
                     InvertedList.put(word, tmpST);
                 }
             }
         }
         return InvertedList;
+    }
+
+    public void setVector(ArrayList<String> invertedList){
+        for(IndexBuilder index : page){
+            ArrayList<Integer> tempList = new ArrayList<Integer>();
+            for(String str : invertedList){
+                if(index.getWordsNotDuplicate().contains(str)){
+                    tempList.add(1);
+                }else{
+                    tempList.add(0);
+                }
+            }
+            index.setWordVector(tempList);
+        }
     }
 }

@@ -11,6 +11,24 @@ public class IndexBuilder {
     private String content;//内容
     private ArrayList<String> words;//分词
     private String sentence;//拼接地址、内容做分词用
+    private ArrayList<String> wordsNotDuplicate;//01向量空间构建时使用
+    private ArrayList<Integer> wordVector;//向量空间
+
+    public void setWordsNotDuplicate(ArrayList<String> wordsNotDuplicate) {
+        this.wordsNotDuplicate = wordsNotDuplicate;
+    }
+
+    public ArrayList<String> getWordsNotDuplicate() {
+        return wordsNotDuplicate;
+    }
+
+    public ArrayList<Integer> getWordVector() {
+        return wordVector;
+    }
+
+    public void setWordVector(ArrayList<Integer> wordVector) {
+        this.wordVector = wordVector;
+    }
 
     public String getSentence() {
         sentence = this.title + this.content;

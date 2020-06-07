@@ -2,18 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aacffa11-6de6-4043-b4c9-7ff1cd0a4ab0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/data/index10.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/index6.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/index7.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/index8.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/index9.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/index/InventedIndex.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/func/StartIndexBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/func/StartIndexBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/index/IndexBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/index/IndexBuilder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/page/PageBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page/PageBuilder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/func/StartIndexBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/func/StartIndexBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/index/IndexBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/index/IndexBuilder.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/page/PageBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/page/PageBuilder.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -133,7 +129,7 @@
       <option name="presentableId" value="Default" />
       <updated>1591453261556</updated>
       <workItem from="1591453267398" duration="7659000" />
-      <workItem from="1591501179001" duration="4319000" />
+      <workItem from="1591501179001" duration="8983000" />
     </task>
     <task id="LOCAL-00001" summary="maven构建 + 中文分词">
       <created>1591503421260</created>
@@ -142,7 +138,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591503421260</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="倒排索引done">
+      <created>1591505719316</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1591505719316</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,6 +167,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="maven构建 + 中文分词" />
-    <option name="LAST_COMMIT_MESSAGE" value="maven构建 + 中文分词" />
+    <MESSAGE value="倒排索引done" />
+    <option name="LAST_COMMIT_MESSAGE" value="倒排索引done" />
   </component>
 </project>
