@@ -1,4 +1,6 @@
+import func.CosineSimilarity;
 import func.StartIndexBuilder;
+import index.IndexBuilder;
 import page.AnsjTest;
 import page.PageBuilder;
 
@@ -27,11 +29,27 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         while (sc.hasNext()) {
             String str;
-            str = sc.next();
+            str = sc.nextLine();
 //            System.out.println("你输入的是:"+str);
             ArrayList<String> inputWords = t.getWords(str);
-            System.out.println("你输入的词是:" + inputWords);
-            
+            ArrayList<Integer> inputVector = new ArrayList<Integer>();
+//            System.out.println("你输入的词是:" + inputWords);
+            for(String word : invertedList){
+                if(inputWords.contains(word)){
+                    inputVector.add(1);
+                }else{
+                    inputVector.add(0);
+                }
+            }
+            CosineSimilarity c = new CosineSimilarity();
+            ArrayList<Integer> test1 = new ArrayList<Integer>();
+            ArrayList<Integer> test2 = new ArrayList<Integer>();
+            test1.add(1);
+            test1.add(0);
+            test2.add(1);
+            test2.add(0);
+            System.out.println("test~~~"+c.getSimilarity(test1, test2,1, 1));
+            double req_length = c.getLength(inputVector);
         }
 
     }

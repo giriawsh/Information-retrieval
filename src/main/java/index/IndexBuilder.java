@@ -13,6 +13,15 @@ public class IndexBuilder {
     private String sentence;//拼接地址、内容做分词用
     private ArrayList<String> wordsNotDuplicate;//01向量空间构建时使用
     private ArrayList<Integer> wordVector;//向量空间
+    private double relativity;//针对特定语句的相关度
+
+    public void setRelativity(double relativity) {
+        this.relativity = relativity;
+    }
+
+    public double getRelativity() {
+        return relativity;
+    }
 
     public void setWordsNotDuplicate(ArrayList<String> wordsNotDuplicate) {
         this.wordsNotDuplicate = wordsNotDuplicate;

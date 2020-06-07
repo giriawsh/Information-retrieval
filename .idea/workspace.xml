@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aacffa11-6de6-4043-b4c9-7ff1cd0a4ab0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/func/CosineSimilarity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/index/IndexBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/index/IndexBuilder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -123,7 +125,7 @@
       <option name="presentableId" value="Default" />
       <updated>1591453261556</updated>
       <workItem from="1591453267398" duration="7659000" />
-      <workItem from="1591501179001" duration="9568000" />
+      <workItem from="1591501179001" duration="11213000" />
     </task>
     <task id="LOCAL-00001" summary="maven构建 + 中文分词">
       <created>1591503421260</created>
@@ -146,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591510226413</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="输入分词处理">
+      <created>1591510801810</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1591510801810</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,6 +179,7 @@
     <MESSAGE value="maven构建 + 中文分词" />
     <MESSAGE value="倒排索引done" />
     <MESSAGE value="向量空间模型done（暂时相关度定为1）" />
-    <option name="LAST_COMMIT_MESSAGE" value="向量空间模型done（暂时相关度定为1）" />
+    <MESSAGE value="输入分词处理" />
+    <option name="LAST_COMMIT_MESSAGE" value="输入分词处理" />
   </component>
 </project>
