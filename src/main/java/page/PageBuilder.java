@@ -43,6 +43,7 @@ public class PageBuilder {
 
     public void printPage() {
         for (IndexBuilder index : page) {
+            System.out.println("------------------------------------------");
             System.out.println("index id=" + index.getId());
             System.out.println("title=" + index.getTitle());
             System.out.println("content =" + index.getContent());

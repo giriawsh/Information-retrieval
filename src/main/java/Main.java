@@ -21,20 +21,16 @@ public class Main {
             String key = entry.getKey();
             invertedList.add(key);
         }
-        System.out.println("!!!");
-//        System.out.println("invertedMap = "+invertedMap);
-        System.out.println("invertedList = " + invertedList);
+//        System.out.println("!!!");
+//        System.out.println("invertedList = " + invertedList);
         page.setVector(invertedList);
-//        page.printPage();
         System.out.println("请输入要查询的语句：");
         Scanner sc = new Scanner(System.in);
         while (sc.hasNext()) {
             String str;
             str = sc.nextLine();
-//            System.out.println("你输入的是:"+str);
             ArrayList<String> inputWords = t.getWords(str);
             ArrayList<Integer> inputVector = new ArrayList<Integer>();
-//            System.out.println("你输入的词是:" + inputWords);
             for (String word : invertedList) {
                 if (inputWords.contains(word)) {
                     inputVector.add(1);
@@ -46,12 +42,12 @@ public class Main {
             double inputLength = c.getLength(inputVector);
             for (IndexBuilder index :
                     page.getPage()) {
-//                double indexLength = c.getLength(index.getWordVector());
                 double relativity = c.getSimilarity(inputVector, index.getWordVector(), inputLength, index.getLength());
                 index.setRelativity(relativity);
             }
             page.sortByRelativity();
             page.printPage();
+            System.out.println("请输入要查询的语句：");
         }
     }
 }

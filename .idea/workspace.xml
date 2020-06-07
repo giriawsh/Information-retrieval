@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aacffa11-6de6-4043-b4c9-7ff1cd0a4ab0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/func/MyComparator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/index/IndexBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/index/IndexBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/page/PageBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page/PageBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/func/StartIndexBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/func/StartIndexBuilder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/page/PageBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/page/PageBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/func/StartIndexBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/func/StartIndexBuilder.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -127,7 +125,7 @@
       <option name="presentableId" value="Default" />
       <updated>1591453261556</updated>
       <workItem from="1591453267398" duration="7659000" />
-      <workItem from="1591501179001" duration="14337000" />
+      <workItem from="1591501179001" duration="14691000" />
     </task>
     <task id="LOCAL-00001" summary="maven构建 + 中文分词">
       <created>1591503421260</created>
@@ -171,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591513369161</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="完成输出处理+排序">
+      <created>1591515585874</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1591515585874</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,6 +203,7 @@
     <MESSAGE value="输入分词处理" />
     <MESSAGE value="余弦计算函数" />
     <MESSAGE value="针对输入计算余弦函数" />
-    <option name="LAST_COMMIT_MESSAGE" value="针对输入计算余弦函数" />
+    <MESSAGE value="完成输出处理+排序" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成输出处理+排序" />
   </component>
 </project>

@@ -32,7 +32,6 @@ public class StartIndexBuilder {
                     //id
                     IndexBuilder index = new IndexBuilder();
                     index.setId(Integer.parseInt(str));
-//                    System.out.println("index setid:"+index.getId());
                     //title
                     in.readLine();
                     title_str = in.readLine();
@@ -40,7 +39,6 @@ public class StartIndexBuilder {
                     Matcher matcher_title = pattern_title.matcher(title_str);
                     if (matcher_title.matches()) {
                         index.setTitle(matcher_title.group(1));
-//                        System.out.println("!!!"+matcher_title.group(1));
                         Pattern pattern_content = Pattern.compile(".*?\u3011(.*?)");
                         Matcher matcher_content = pattern_content.matcher(title_str);
                         if (matcher_content.matches()) {
@@ -55,14 +53,11 @@ public class StartIndexBuilder {
 
                     //date
                     String temp = in.readLine();
-//                    System.out.println("temp="+temp);
                     if (temp.equals(" 原图 ")) {
-//                        System.out.println("No picture");
                         date_str = in.readLine();
                     } else {
                         date_str = temp;
                     }
-//                    System.out.println("date_str="+date_str);
                     Pattern pattern_date = Pattern.compile(".*?藏 (.*?)");
                     String tail = " 来自微博 weibo.com";
                     Matcher matcher_date = pattern_date.matcher(date_str);
@@ -72,7 +67,6 @@ public class StartIndexBuilder {
                         } else {
                             index.setDate(matcher_date.group(1));
                         }
-//                        System.out.println("date ="+index.getDate());
                     } else {
                         index.setDate("");
                     }
@@ -84,24 +78,21 @@ public class StartIndexBuilder {
                     Matcher matcher_url = pattern_url.matcher(url_str);
                     if (matcher_url.matches()) {
                         index.setUrl(matcher_url.group(1));
-//                        System.out.println("url ="+matcher_url.group(1));
                     } else {
                         index.setUrl("");
                     }
                     AnsjTest t = new AnsjTest();
                     ArrayList<String> words = t.getWords(index.getSentence());
-                    System.out.println(words);
+//                    System.out.println(words);
                     index.setWords(words);
                     ArrayList<String> newList = new ArrayList<String>();
                     for(String word : words){
                         if(!newList.contains(word)) newList.add(word);
                     }
-//                    System.out.println("newList="+newList);
                     index.setWordsNotDuplicate(newList);
                     temp_page.insertIndex(index);
                 }
             }
-//            page.printPage();
             temp_page.outputPage();
         } catch (IOException e) {
         }
