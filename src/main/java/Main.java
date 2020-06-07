@@ -1,4 +1,5 @@
 import func.CosineSimilarity;
+import func.MyComparator;
 import func.StartIndexBuilder;
 import index.IndexBuilder;
 import page.AnsjTest;
@@ -14,10 +15,10 @@ public class Main {
         TreeMap<String, TreeMap<Integer, Integer>> invertedMap;
         invertedMap = page.getInvertedList();
         ArrayList<String> invertedList = new ArrayList<String>();
-        Iterator iter = invertedMap.entrySet().iterator();
+        Iterator<Map.Entry<String, TreeMap<Integer, Integer>>> iter = invertedMap.entrySet().iterator();
         while (iter.hasNext()) {
-            Map.Entry entry = (Map.Entry) iter.next();
-            String key = (String) entry.getKey();
+            Map.Entry<String, TreeMap<Integer, Integer>> entry = iter.next();
+            String key = entry.getKey();
             invertedList.add(key);
         }
         System.out.println("!!!");
@@ -49,10 +50,8 @@ public class Main {
                 double relativity = c.getSimilarity(inputVector, index.getWordVector(), inputLength, index.getLength());
                 index.setRelativity(relativity);
             }
+            page.sortByRelativity();
             page.printPage();
-            for(IndexBuilder index : page.getPage()){
-
-            }
         }
     }
 }

@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aacffa11-6de6-4043-b4c9-7ff1cd0a4ab0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/func/MyComparator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/func/CosineSimilarity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/func/CosineSimilarity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/index/IndexBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/index/IndexBuilder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/page/PageBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page/PageBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/page/PageBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/page/PageBuilder.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -125,7 +127,7 @@
       <option name="presentableId" value="Default" />
       <updated>1591453261556</updated>
       <workItem from="1591453267398" duration="7659000" />
-      <workItem from="1591501179001" duration="12041000" />
+      <workItem from="1591501179001" duration="14337000" />
     </task>
     <task id="LOCAL-00001" summary="maven构建 + 中文分词">
       <created>1591503421260</created>
@@ -162,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591512488798</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="针对输入计算余弦函数">
+      <created>1591513369161</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1591513369161</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,6 +197,7 @@
     <MESSAGE value="向量空间模型done（暂时相关度定为1）" />
     <MESSAGE value="输入分词处理" />
     <MESSAGE value="余弦计算函数" />
-    <option name="LAST_COMMIT_MESSAGE" value="余弦计算函数" />
+    <MESSAGE value="针对输入计算余弦函数" />
+    <option name="LAST_COMMIT_MESSAGE" value="针对输入计算余弦函数" />
   </component>
 </project>

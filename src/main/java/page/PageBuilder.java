@@ -1,6 +1,7 @@
 package page;
 
 import func.CosineSimilarity;
+import func.MyComparator;
 import index.IndexBuilder;
 import index.InventedIndex;
 
@@ -8,13 +9,10 @@ import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.TreeMap;
+import java.util.*;
 
 public class PageBuilder {
-    private List<IndexBuilder> page;
-
+    private ArrayList<IndexBuilder> page;
 
     public PageBuilder() {
         page = new ArrayList<IndexBuilder>();
@@ -120,7 +118,30 @@ public class PageBuilder {
         }
     }
 
-    public List<IndexBuilder> getPage() {
+    public ArrayList<IndexBuilder> getPage() {
         return page;
+    }
+
+    public void setPage(ArrayList<IndexBuilder> page) {
+        this.page = page;
+    }
+
+    public void sortByRelativity(){
+        Collections.sort(page, new Comparator<IndexBuilder>() {
+            public int compare(IndexBuilder o1, IndexBuilder o2) {
+                if(o1.getRelativity() < o2.getRelativity())
+                {
+                    return 1;
+                }
+                else if(o1.getRelativity() == o2.getRelativity())
+                {
+                    return 0;
+                }
+                else
+                {
+                    return -1;
+                }
+            }
+        });
     }
 }

@@ -3,7 +3,7 @@ package index;
 
 import java.util.ArrayList;
 
-public class IndexBuilder {
+public class IndexBuilder{
     private int id;//索引序列号
     private String url;//url地址
     private String title;//取中括号为标题
@@ -113,4 +113,5 @@ public class IndexBuilder {
         System.out.println("url =" + this.url);
         System.out.println("relativity = " + this.relativity);
     }
+
 }
