@@ -2,27 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aacffa11-6de6-4043-b4c9-7ff1cd0a4ab0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ansj_ansj_seg_5_1_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_nlpcn_nlp_lang_1_7_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ansj_seg-5.1.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nlp-lang-1.7.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/page/AnsjTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/爬虫抓取格式化.zip" beforePathEscaped="$PROJECT_DIR$/#18#爬#18#虫#18#抓#18#取#18#格#18#式#18#化.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index10.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index6.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index7.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index8.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index9.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/index/InventedIndex.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyInformation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MyInformation.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyInformation/META-INF/MyInformation.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyInformation/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyInformation/func/StartIndexBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyInformation/index/IndexBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MyInformation/page/PageBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/func/StartIndexBuilder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index/IndexBuilder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/PageBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/func/StartIndexBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/func/StartIndexBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/page/PageBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page/PageBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/func/StartIndexBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/func/StartIndexBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/page/PageBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/page/PageBuilder.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,6 +39,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -62,7 +55,11 @@
     </option>
   </component>
   <component name="ProjectId" id="1cwx3xkMy0ZRssQy5mqvhVcHpO1" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -136,8 +133,16 @@
       <option name="presentableId" value="Default" />
       <updated>1591453261556</updated>
       <workItem from="1591453267398" duration="7659000" />
-      <workItem from="1591501179001" duration="2209000" />
+      <workItem from="1591501179001" duration="4319000" />
     </task>
+    <task id="LOCAL-00001" summary="maven构建 + 中文分词">
+      <created>1591503421260</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1591503421260</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,5 +160,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="maven构建 + 中文分词" />
+    <option name="LAST_COMMIT_MESSAGE" value="maven构建 + 中文分词" />
   </component>
 </project>

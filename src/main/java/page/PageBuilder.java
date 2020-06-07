@@ -1,6 +1,7 @@
 package page;
 
 import index.IndexBuilder;
+import index.InventedIndex;
 
 import java.io.BufferedWriter;
 import java.io.File;
@@ -8,6 +9,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.TreeMap;
 
 public class PageBuilder {
     private List<IndexBuilder> page;
@@ -69,5 +71,34 @@ public class PageBuilder {
             out.newLine();
             out.close();
         }
+    }
+
+    public TreeMap<String, TreeMap<Integer,Integer>> getInvertedList(){
+        TreeMap<String,TreeMap<Integer,Integer>> InvertedList = new TreeMap<String, TreeMap<Integer, Integer>>();
+        for(IndexBuilder index : page){
+            int id = index.getId();
+            for(String word : index.getWords()){
+                if(!InvertedList.containsKey(word))
+                {
+                    //单词在统计中首次出现
+                    TreeMap<Integer, Integer> tmpST = new TreeMap<Integer, Integer>();
+                    tmpST.put(id, 1);
+                    InvertedList.put(word, tmpST);
+                } else{
+                    TreeMap<Integer ,Integer> tmpST = InvertedList.get(word);
+                    Integer count = tmpST.get(id);
+                    if(count == null){
+                        tmpST.put(id, 1);
+                    }else{
+                        count ++;
+                        tmpST.put(id, count);
+                    }
+//                    count = ((count == null) ? 1 : count++);
+//                    tmpST.put(id, count);
+                    InvertedList.put(word, tmpST);
+                }
+            }
+        }
+        return InvertedList;
     }
 }

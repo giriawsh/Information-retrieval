@@ -14,7 +14,7 @@ import java.util.regex.Pattern;
 public class StartIndexBuilder {
     private PageBuilder page;
 
-    public PageBuilder formatterData(){//进行格式化处理
+    public PageBuilder formatterData(){//进行格式化处理并构建page对象
         PageBuilder temp_page = new PageBuilder();
         try{
             String pathName = "C:\\Users\\giria\\Desktop\\index.txt";
@@ -92,7 +92,7 @@ public class StartIndexBuilder {
                     }
                     AnsjTest t = new AnsjTest();
                     ArrayList<String> words = t.getWords(index.getSentence());
-//                    System.out.println(words);
+                    System.out.println(words);
                     index.setWords(words);
                     temp_page.insertIndex(index);
                 }
