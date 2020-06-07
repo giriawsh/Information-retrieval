@@ -4,13 +4,7 @@
     <list default="true" id="aacffa11-6de6-4043-b4c9-7ff1cd0a4ab0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/func/StartIndexBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/func/StartIndexBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/index/IndexBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/index/IndexBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/page/PageBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/page/PageBuilder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/func/StartIndexBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/func/StartIndexBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/index/IndexBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/index/IndexBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/page/PageBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/page/PageBuilder.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -129,7 +123,7 @@
       <option name="presentableId" value="Default" />
       <updated>1591453261556</updated>
       <workItem from="1591453267398" duration="7659000" />
-      <workItem from="1591501179001" duration="8983000" />
+      <workItem from="1591501179001" duration="9568000" />
     </task>
     <task id="LOCAL-00001" summary="maven构建 + 中文分词">
       <created>1591503421260</created>
@@ -145,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591505719316</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="向量空间模型done（暂时相关度定为1）">
+      <created>1591510226413</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1591510226413</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,6 +169,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="maven构建 + 中文分词" />
     <MESSAGE value="倒排索引done" />
-    <option name="LAST_COMMIT_MESSAGE" value="倒排索引done" />
+    <MESSAGE value="向量空间模型done（暂时相关度定为1）" />
+    <option name="LAST_COMMIT_MESSAGE" value="向量空间模型done（暂时相关度定为1）" />
   </component>
 </project>
