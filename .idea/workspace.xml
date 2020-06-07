@@ -1,12 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b55855e2-090a-489d-aff4-e2bb0acea19c" name="Default Changelist" comment="" />
+    <list default="true" id="aacffa11-6de6-4043-b4c9-7ff1cd0a4ab0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ansj_ansj_seg_5_1_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_nlpcn_nlp_lang_1_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ansj_seg-5.1.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nlp-lang-1.7.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/page/AnsjTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/爬虫抓取格式化.zip" beforePathEscaped="$PROJECT_DIR$/#18#爬#18#虫#18#抓#18#取#18#格#18#式#18#化.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyInformation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MyInformation.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyInformation/META-INF/MyInformation.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyInformation/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyInformation/func/StartIndexBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyInformation/index/IndexBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyInformation/page/PageBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/func/StartIndexBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index/IndexBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/page/PageBuilder.java" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -15,10 +51,22 @@
       </list>
     </option>
   </component>
-  <component name="ProjectId" id="1cvvvwxQxbeiY86Em6QwWj8gsYy" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1cwx3xkMy0ZRssQy5mqvhVcHpO1" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/nlp-lang-1.7.7.jar!/" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -27,6 +75,15 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\msys64\home\giria\MyInformation" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -41,15 +98,21 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+    <configuration name="AnsjTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="page.AnsjTest" />
       <module name="MyInformation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="page.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StartIndexBuilder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="func.StartIndexBuilder" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="MyInformation" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -58,7 +121,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.StartIndexBuilder" />
+        <item itemvalue="Application.AnsjTest" />
       </list>
     </recent_temporary>
   </component>
@@ -67,16 +130,30 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b55855e2-090a-489d-aff4-e2bb0acea19c" name="Default Changelist" comment="" />
-      <created>1591422115884</created>
+      <changelist id="aacffa11-6de6-4043-b4c9-7ff1cd0a4ab0" name="Default Changelist" comment="" />
+      <created>1591453261556</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1591422115884</updated>
-      <workItem from="1591422117699" duration="13363000" />
+      <updated>1591453261556</updated>
+      <workItem from="1591453267398" duration="7659000" />
+      <workItem from="1591501179001" duration="2209000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
