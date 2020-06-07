@@ -13,7 +13,16 @@ public class IndexBuilder {
     private String sentence;//拼接地址、内容做分词用
     private ArrayList<String> wordsNotDuplicate;//01向量空间构建时使用
     private ArrayList<Integer> wordVector;//向量空间
+    private double length;//向量长度
     private double relativity;//针对特定语句的相关度
+
+    public void setLength(double length) {
+        this.length = length;
+    }
+
+    public double getLength() {
+        return length;
+    }
 
     public void setRelativity(double relativity) {
         this.relativity = relativity;
@@ -94,5 +103,14 @@ public class IndexBuilder {
 
     public void setUrl(String url) {
         this.url = url;
+    }
+
+    public void printIndex(){
+        System.out.println("index id=" + this.id);
+        System.out.println("title=" + this.title);
+        System.out.println("content =" + this.content);
+        System.out.println("date =" + this.date);
+        System.out.println("url =" + this.url);
+        System.out.println("relativity = " + this.relativity);
     }
 }

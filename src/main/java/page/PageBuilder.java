@@ -1,5 +1,6 @@
 package page;
 
+import func.CosineSimilarity;
 import index.IndexBuilder;
 import index.InventedIndex;
 
@@ -50,6 +51,7 @@ public class PageBuilder {
             System.out.println("date =" + index.getDate());
             System.out.println("url =" + index.getUrl());
             System.out.println("Vector = " + index.getWordVector());
+            System.out.println("Relativity = " + index.getRelativity());
         }
     }
 
@@ -113,6 +115,12 @@ public class PageBuilder {
                 }
             }
             index.setWordVector(tempList);
+            CosineSimilarity c = new CosineSimilarity();
+            index.setLength(c.getLength(index.getWordVector()));
         }
+    }
+
+    public List<IndexBuilder> getPage() {
+        return page;
     }
 }

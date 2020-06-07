@@ -24,7 +24,7 @@ public class Main {
 //        System.out.println("invertedMap = "+invertedMap);
         System.out.println("invertedList = " + invertedList);
         page.setVector(invertedList);
-        page.printPage();
+//        page.printPage();
         System.out.println("请输入要查询的语句：");
         Scanner sc = new Scanner(System.in);
         while (sc.hasNext()) {
@@ -34,23 +34,25 @@ public class Main {
             ArrayList<String> inputWords = t.getWords(str);
             ArrayList<Integer> inputVector = new ArrayList<Integer>();
 //            System.out.println("你输入的词是:" + inputWords);
-            for(String word : invertedList){
-                if(inputWords.contains(word)){
+            for (String word : invertedList) {
+                if (inputWords.contains(word)) {
                     inputVector.add(1);
-                }else{
+                } else {
                     inputVector.add(0);
                 }
             }
             CosineSimilarity c = new CosineSimilarity();
-            ArrayList<Integer> test1 = new ArrayList<Integer>();
-            ArrayList<Integer> test2 = new ArrayList<Integer>();
-            test1.add(1);
-            test1.add(0);
-            test2.add(1);
-            test2.add(0);
-            System.out.println("test~~~"+c.getSimilarity(test1, test2,1, 1));
-            double req_length = c.getLength(inputVector);
-        }
+            double inputLength = c.getLength(inputVector);
+            for (IndexBuilder index :
+                    page.getPage()) {
+//                double indexLength = c.getLength(index.getWordVector());
+                double relativity = c.getSimilarity(inputVector, index.getWordVector(), inputLength, index.getLength());
+                index.setRelativity(relativity);
+            }
+            page.printPage();
+            for(IndexBuilder index : page.getPage()){
 
+            }
+        }
     }
 }
