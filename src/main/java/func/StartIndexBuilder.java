@@ -17,7 +17,7 @@ public class StartIndexBuilder {
     public PageBuilder formatterData() {//进行格式化处理并构建page对象
         PageBuilder temp_page = new PageBuilder();
         try {
-            String pathName = "C:\\Users\\giria\\Desktop\\index.txt";
+            String pathName = "C:\\Users\\giria\\Desktop\\weibocontent_test.txt";
             File f = new File(pathName);
             InputStreamReader read = new InputStreamReader(new FileInputStream(f), "gbk");
             BufferedReader in = new BufferedReader(read);
@@ -52,12 +52,15 @@ public class StartIndexBuilder {
                     }
 
                     //date
-                    String temp = in.readLine();
-                    if (temp.equals(" 原图 ")) {
-                        date_str = in.readLine();
-                    } else {
-                        date_str = temp;
-                    }
+                    while(true){
+                        String temp = in.readLine();
+                        Pattern pattern_temp = Pattern.compile("赞.*?");
+                        Matcher matcher_temp = pattern_temp.matcher(temp);
+                        if (matcher_temp.matches()) {
+                            date_str = temp;
+                            break;
+                        }
+                    }//特殊有视频情况下date的格式处理修复
                     Pattern pattern_date = Pattern.compile(".*?藏 (.*?)");
                     String tail = " 来自微博 weibo.com";
                     Matcher matcher_date = pattern_date.matcher(date_str);

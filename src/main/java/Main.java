@@ -46,7 +46,11 @@ public class Main {
                 index.setRelativity(relativity);
             }
             page.sortByRelativity();
-            page.printPage();
+            for(int i = 0; i < 10; i++)
+            {
+                page.getPage().get(i).printIndex();
+            }
+            //由于文档较大 只根据相关度打印十个
             System.out.println("请输入要查询的语句：");
         }
     }

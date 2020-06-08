@@ -2,6 +2,198 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aacffa11-6de6-4043-b4c9-7ff1cd0a4ab0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/data/index100.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index101.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index102.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index103.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index104.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index105.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index106.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index107.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index108.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index109.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index11.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index110.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index111.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index112.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index113.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index114.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index115.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index116.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index117.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index118.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index119.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index12.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index120.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index121.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index122.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index123.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index124.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index125.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index126.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index127.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index128.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index129.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index13.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index130.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index131.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index132.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index133.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index134.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index135.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index136.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index137.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index138.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index139.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index14.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index140.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index141.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index142.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index143.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index144.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index145.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index146.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index147.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index148.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index149.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index15.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index150.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index151.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index152.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index153.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index154.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index155.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index156.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index157.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index158.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index159.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index16.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index160.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index161.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index162.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index163.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index164.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index165.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index166.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index167.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index168.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index169.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index17.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index170.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index171.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index172.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index173.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index174.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index175.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index176.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index177.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index178.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index179.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index18.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index180.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index181.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index182.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index183.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index184.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index185.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index186.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index187.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index188.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index189.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index19.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index190.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index191.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index192.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index193.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index194.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index195.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index196.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index197.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index198.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index199.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index20.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index200.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index201.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index202.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index21.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index22.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index23.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index24.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index25.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index26.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index27.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index28.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index29.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index30.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index31.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index32.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index33.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index34.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index35.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index36.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index37.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index38.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index39.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index40.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index41.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index42.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index43.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index44.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index45.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index46.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index47.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index48.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index49.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index50.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index51.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index52.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index53.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index54.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index55.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index56.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index57.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index58.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index59.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index60.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index61.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index62.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index63.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index64.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index65.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index66.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index67.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index68.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index69.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index70.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index71.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index72.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index73.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index74.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index75.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index76.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index77.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index78.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index79.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index80.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index81.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index82.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index83.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index84.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index85.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index86.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index87.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index88.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index89.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index90.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index91.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index92.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index93.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index94.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index95.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index96.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index97.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index98.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/index99.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/func/StartIndexBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/func/StartIndexBuilder.java" afterDir="false" />
@@ -125,7 +317,8 @@
       <option name="presentableId" value="Default" />
       <updated>1591453261556</updated>
       <workItem from="1591453267398" duration="7659000" />
-      <workItem from="1591501179001" duration="14691000" />
+      <workItem from="1591501179001" duration="15655000" />
+      <workItem from="1591591888113" duration="1331000" />
     </task>
     <task id="LOCAL-00001" summary="maven构建 + 中文分词">
       <created>1591503421260</created>
@@ -176,7 +369,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591515585874</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="1.0 done">
+      <created>1591516138505</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1591516138505</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,6 +404,7 @@
     <MESSAGE value="余弦计算函数" />
     <MESSAGE value="针对输入计算余弦函数" />
     <MESSAGE value="完成输出处理+排序" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成输出处理+排序" />
+    <MESSAGE value="1.0 done" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.0 done" />
   </component>
 </project>
